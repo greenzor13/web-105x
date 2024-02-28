@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+
+}
+
+#t{
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    background-color: ivory;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+}
+h1, h2, h3{
+    text-align: center;
+    color: greenyellow;
+}
+ul {
+    list-style-image: url('../images/favicon.png');
+  }
+
+  dt{
+    font-weight: bold;
+    color: purple;
+}
