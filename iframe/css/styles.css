@@ -1,0 +1,17 @@
+iframe{
+    width: 800px;
+    height: 400px;
+    display: block;
+    margin: 20px auto;
+    border: 5px;
+    border-style: double;
+}
+
+body{
+    border: 10px;
+    border-color: lightgreen;
+    border-style: solid;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}

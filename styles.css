@@ -1,0 +1,156 @@
+/*
+primary color: #493548
+Secondary color ultra violet: #4B4E6D
+dark-text: #493548
+Medium grey-blue: #6A8D92
+grey jade/teal: #80B192
+light-text: #A1E887
+
+fonts
+.cherry-cream soda-regular {
+  font-family: "Cherry Cream Soda", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+/*
+                            Variables  */
+
+:root {
+    --secondary-color: #4B4E6D;
+    --dark-text: #493548;
+    --medium-grey: #6A8D92;
+    --grey-teal: #80B192;
+    --light-text: #A1E887;
+    --myriot: "Protest Riot", sans-serif;
+    --mysoda: "Cherry Cream Soda", system-ui;
+  }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my stykes */
+
+body{
+    font-family: var(--myriot);
+    background: #493548;
+    color: var(--light-text);
+    padding: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding:15px;
+    border: 10px solid var(--secondary-color);
+    background-color: #6A8D92;
+}
+.container1{
+    width: 60%;
+    margin: 10px;
+    padding:15px;
+    border: 10px solid var(--secondary-color);
+    background-color: #6A8D92;
+}
+
+
+#floatCon{
+    float: right;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 200px;
+    max-width: 500px;
+    border: 10px solid #80B192;
+}
+
+img{
+    width: 40%;
+    margin: 15px auto;
+}
+
+
+nav{
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    padding: 5px 10px;
+    color: var(--light-text);
+    background: var(--secondary-color);
+}
+
+h1, h2, h3, h4{
+    font-family: var(--mysoda);
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+/*
+As an AI text model, I can't create visual images, but I can certainly describe a movie poster for "Nightmare in the Lingosphere"!
+
+Title: Nightmare in the Lingosphere
+
+Tagline: "Don't miss your lesson... or else."
+
+Description: The poster depicts a dark, eerie atmosphere, with shadows creeping across a dimly lit backdrop. At the center, the iconic Duolingo owl stands tall, its once friendly demeanor now twisted into a menacing glare. The owl's eyes glow with an unnatural intensity, casting an ominous light over the scene. In the background, silhouettes of language-learning characters are barely visible, trapped in a sinister maze of linguistic nightmares. The words "Nightmare in the Lingosphere" loom ominously overhead, written in bold, blood-red letters, while the tagline "Don't miss your lesson... or else." serves as a chilling warning to all who dare to enter the Lingosphere.
+*/
+

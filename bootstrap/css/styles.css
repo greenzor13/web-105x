@@ -1,0 +1,67 @@
+.masthead{
+    background-color: rgb(13, 92, 20);
+    color:rgb(155, 218, 143);
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 20px;
+
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.border{
+    border-color: rgb(13, 92, 20);
+}
+
+img {
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+}
+
+
+.class:hover{
+    background: rgb(44, 205, 27);
+    color: rgb(16, 108, 78);
+}
+
+.classm:hover{
+    background: rgb(241, 188, 15);
+    color: rgb(55, 37, 3);
+}
+
+.classn:hover{
+    background: rgb(242, 254, 11);
+    color: rgb(54, 55, 3);
+}
+
+.classt:hover{
+    background: rgb(15, 241, 241);
+    color: rgb(3, 48, 55);
+}
+
+.classs:hover{
+    background: rgb(180, 94, 241);
+    color: rgb(49, 3, 55);
+}
+
+.classi:hover{
+    background: rgb(52, 15, 239);
+    color: rgb(223, 224, 237);
+}
+
+.classr:hover{
+    background: rgb(241, 15, 15);
+    color: rgb(55, 3, 3);
+}
+
+footer{
+    padding: 25px;
+    margin: 15px;
+    color: azure;
+    text-align: center;
+    font-family: monospace;
+    font-size:xx-large;
+}

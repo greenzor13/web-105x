@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Protest+Riot&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="container">
+        <form>
+            <h2>HTML Forms</h2>
+
+            <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Randy"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Disher"><br><br>
+
+            <p>whatr u bringin</p>
+
+            <input type="checkbox" id="type1" name="type1" value="Main-Dish" required>
+            <label for="type1"> Im bringing a main dish</label><br>
+            <input type="checkbox" id="type2" name="type2" value="Dessert" required>
+            <label for="type2"> Im bringin a dessert</label><br>
+            <input type="checkbox" id="type3" name="type3" value="side-dish" required>
+            <label for="type3"> Im bringin side dish</label><br><br>
+
+            <p>its time for ur witten essay</p>
+            <p>u gotta get at least 2 paragraphs to convince y u should get invited to tha party, with sources to get the location of the party</p>
+
+            <textarea name="message" rows="10" cols="30" required placeholder="Please write in MLA format." autofocus></textarea>></textarea>
+            <br><br>
+            
+            <p>Choose fav party music</p>
+            <input type="radio" id="pop" name="fav_music" value="POP" required>
+            <label for="pop">Pop</label><br>
+            <input type="radio" id="indie" name="fav_music" value="INDIE">
+            <label for="indie">Indie</label><br>
+            <input type="radio" id="rock" name="fav_music" value="ROCK">
+            <label for="rock">Rock</label>
+            <br><br>
+            <button type="button" onclick="alert('You know what you did')"> Don't Click Me</button>
+            <br>
+
+
+            <input type="submit" value="Submit">
+        </form> 
+        <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+    </div>
+    
+</body>
+</html>

@@ -19,10 +19,11 @@ body{
     min-height: 50px;
     margin: 20px;
     overflow: auto;
+    padding: 10px;
 }
 
 img{
-    width: 30%;
+    width: ;
     height: auto;
     display: block;
     margin: 10px auto;

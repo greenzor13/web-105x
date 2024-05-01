@@ -1,0 +1,22 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,76,1) 56%, rgba(86,255,0,1) 100%);
+    outline: 4px double #71FF54;
+    outline-offset: 4px;
+    border-radius: 8px 11px 26px 13px;
+    text-shadow: 5px 5px 5px #2E8581;
+    color:beige;
+}
+
+#columns {
+    column-count: 3;
+    column-gap: 5px;
+    background-color: rgba(615, 14, 74, .8);
+}
+
+#move{
+    background: gold;
+    width: 70px;
+    height: 70px;
+    transform: scale(3) rotate(720deg) translateX(125px) translateY(-25px) skewX(5deg);
+}

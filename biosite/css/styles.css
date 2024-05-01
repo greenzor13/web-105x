@@ -1,0 +1,342 @@
+body {
+    background: rgb(187, 250, 223);
+    font-size:16px;
+    line-height:2;
+    color:rgb(52, 165, 42);
+    padding: 0px;
+    margin:0px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.container{
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid green;
+    min-height: 50px;
+}
+.containerT{
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    border: 5px solid rgb(51, 255, 0);
+    border-radius: 35%;
+    min-height: 50px;
+    background-color: rgba(80, 248, 94, 0.5);
+    color: rgb(211, 255, 200);
+}
+
+nav {
+    width: 80%;
+    margin: 10px  auto;
+    text-align: center;
+    line-height: 3;
+}
+nav a, #nav1 {
+    text-decoration: none;
+    margin-left: 5px;
+    background-color: greenyellow;
+    padding: 5px 7px;
+    color: black;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+}
+
+nav a:hover, #nav1:hover {
+    color: greenyellow;
+    background: black;
+}
+
+.button {
+    text-decoration: none;
+    margin-left: 1px;
+    background-color: cyan;
+    padding: 5px 5px;
+    color: black;
+    border: 1px solid cyan;
+    border-radius: 20px;
+}
+
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0.0);
+}
+
+.carousel-item {
+    padding-left: 50px;
+    img{
+        width: 70%;
+    }
+}
+
+#home{
+    /*background-image:url("");*/
+    background-image: url("../images/genime_room.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    min-height: 100px;
+    overflow: auto;
+}
+
+#comim{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+p{
+    margin: 30px;
+}
+
+#comim2{
+    margin: auto;
+    width: fit-content;
+    display:grid;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+#comics{
+    /*background-image:url("");*/
+    background-image: url("../images/fracts_room_1_bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    min-height: 100px;
+    overflow: auto;
+}
+
+#portfolio{
+    /*background-image:url("");*/
+    background-image: url("../images/ryujii_room.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:cursive;
+    min-height: 100px;
+    overflow: auto;
+    color: azure;
+}
+
+#bio{
+    background-image: url("../images/junkyard_bg.png");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 255, 221);
+    min-height: 100px;
+    overflow: auto;
+} 
+
+img{
+    padding: 10px;
+}
+ul {
+    list-style-image: url('../images/favicon.png');
+  }
+
+.container1{
+    width: 60%;
+    margin: 10px auto;
+    border: 10px solid rgb(5, 236, 236);
+    border-radius: 80px 40px;
+    padding: 20px;
+    background-image:url("../images/hex.png");
+    background-repeat: repeat;
+    color: rgb(255, 255, 255);
+    min-height: 100px;
+    overflow: auto;
+    box-sizing:border-box;
+    font-weight: bold;
+    p{
+        margin: 10px auto;
+    }
+}
+.containerZ{
+    width: 60%;
+    margin: 10px auto;
+    border: 10px solid rgb(5, 236, 132);
+    border-radius: 80px 40px;
+    padding: 20px;
+    background-image:url("../images/hexZ.png");
+    background-repeat: repeat;
+    color: rgb(255, 255, 255);
+    min-height: 100px;
+    overflow: auto;
+    box-sizing:border-box;
+    font-weight: bold;
+    p{
+        margin: 10px auto;
+    }
+}
+.containerU{
+    width: 45%;
+    margin: 10px 30px;
+    border: 10px solid rgb(0, 128, 55);
+    border-radius: 30px 30px;
+    padding: 5px 20px;
+    background-color:rgb(127, 255, 161) ;
+    color: rgb(8, 64, 57);
+    min-height: 100px;
+    overflow: auto;
+    p{
+        margin: 10px auto;
+    }
+}
+.container2{
+    width: 45%;
+    margin: 10px 30px;
+    border: 10px solid teal;
+    border-radius: 30px 30px;
+    padding: 5px 20px;
+    background-color:aquamarine ;
+    color: rgb(8, 64, 57);
+    min-height: 100px;
+    overflow: auto;
+    p{
+        margin: 10px auto;
+    }
+}
+.container3{
+    width: 70%;
+    margin: 10px auto;
+    border: 10px solid rgb(5, 236, 236);
+    border-radius: 20px 20px;
+    padding: 20px;
+    background-color: rgb(111, 211, 108,.7);
+    color: rgb(255, 255, 255);
+    min-height: 100px;
+    overflow: auto;
+    box-sizing:border-box;
+    h2{
+        text-align: center;
+    }
+}
+.container4{
+    width: 75%;
+    margin: 10px auto;
+    border: 10px solid rgb(93, 255, 71);
+    border-radius: 10%;
+    padding: 20px;
+    background-color: rgb(111, 211, 108,.7);
+    color: rgb(255, 255, 255);
+    min-height: 100px;
+    overflow: auto;
+    box-sizing:border-box;
+    h2{
+        text-align: center;
+    }
+}
+.container5{
+    width: 75%;
+    margin: 10px auto;
+    border: 10px solid rgb(5, 236, 236);
+    border-radius: 20px 20px;
+    padding: 20px;
+    background-color: rgb(111, 211, 108,.7);
+    color: rgb(255, 255, 255);
+    min-height: 100px;
+    overflow: auto;
+    box-sizing:border-box;
+    h2{
+        text-align: center;
+    }
+}
+
+
+.bigimg{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid; /* this creates a grid layout */
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: rgb(20, 133, 116);
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(197, 244, 224, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+
+}
+
+.grid-container > div >img{
+    width: 90%;
+    align-items: center;
+
+}
+
+#large{
+    width: 80%;
+    display: block;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+.containerA{
+    width: 300%;
+    margin: 10px;
+    padding: 15px 15px 15px 15px;
+    overflow: auto;
+    box-sizing:border-box;
+    border: 10px solid rgb(13, 225, 168);
+    background-color: rgba(108, 211, 180, 0.9)
+}
+
+
+#floatCon{
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    font-size: medium;
+    min-height: 100px;
+    max-width: 200px;
+    border: 10px solid rgb(13, 225, 168);
+    /* position:fixed; */
+    p{
+        margin: 0px;
+    }
+}
+.container-fluid{
+    margin: auto;
+    display: ruby-text;
+}
+
+.modal-body, .modal-title{
+    color: black;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .col-1 {
+        width: 20%;
+    }
+    .col-2 {
+        width: 80%;
+    }
+    #floatCon{
+        max-width: 400px;
+    }
+
+}

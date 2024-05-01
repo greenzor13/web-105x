@@ -1,0 +1,163 @@
+/*
+primary color: #493548
+Secondary color ultra violet: #4B4E6D
+dark-text: #493548
+Medium grey-blue: #6A8D92
+grey jade/teal: #80B192
+light-text: #A1E887
+
+fonts
+.cherry-cream soda-regular {
+  font-family: "Cherry Cream Soda", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my stykes */
+
+body{
+    font-family: "Protest Riot", sans-serif;
+    background: #374935;
+    color:#c7f1b8;
+    padding: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding:15px;
+    border: 10px solid #077e1f;
+    background-color: #3e593e;
+}
+.container1{
+    width: 60%;
+    margin: 10px;
+    padding:15px;
+    border: 10px solid #4B4E6D;
+    background-color: #3e5659;
+}
+
+
+#floatCon{
+    float: right;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 200px;
+    max-width: 500px;
+    border: 10px solid #80B192;
+}
+
+img{
+    width: 40%;
+    margin: 15px auto;
+}
+
+
+nav{
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    padding: 5px 10px;
+    color: #c7f1b8;
+    background: #4B4E6D;
+}
+
+h1, h2, h3, h4{
+    font-family: "Cherry Cream Soda", system-ui;
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+}
+
+/* 🦆🦆🦆           Grid Layout       🦆🦆🪿  */
+
+
+.grid-container {
+    display: grid; /* this creates a grid layout */
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: rgb(20, 133, 44);
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(197, 244, 200, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+
+}
+
+.grid-container > div >img{
+    width: 90%;
+    align-items: center;
+
+}
+
+#large{
+    width: 5 0%;
+    display: block;
+    margin: 25px auto;
+    padding: 20px;
+}
